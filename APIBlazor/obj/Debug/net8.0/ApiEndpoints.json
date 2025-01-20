@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "ChangeUserRole",
+    "RelativePath": "api/UserLogin/ChangeUserRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIBlazor.Service.UserLoginService\u002BChangeRoleAndDeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/UserLogin/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIBlazor.Service.UserLoginService\u002BChangeRoleAndDeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "GetUsers",
+    "RelativePath": "api/UserLogin/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "GetUserById",
+    "RelativePath": "api/UserLogin/GetUserById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "GetUserIdFromTokenAsync",
+    "RelativePath": "api/UserLogin/GetUserIdFromToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIBlazor.Service.UserLoginService\u002BUserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "Login",
+    "RelativePath": "api/UserLogin/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIBlazor.Requests.LoginUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "Register",
+    "RelativePath": "api/UserLogin/Regist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIBlazor.Requests.RegisterUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBlazor.Controllers.UserLoginController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/UserLogin/UpdateUserInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIBlazor.Requests.UpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
